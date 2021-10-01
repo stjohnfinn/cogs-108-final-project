@@ -38,30 +38,37 @@ If you want to begin editing make sure to pull from within the repository just t
 $ git checkout master
 $ git pull 
 ```
-
-If you are making a new shan/analysis make a new branch with the naming convention user/feature-name
-```
-$ git branch shan/data-analysis
-```
-and checkout to get there
-```
-$ git checkout shan/data-analysis
-```
-
-You can push any branch to the repo at any time 
-```
-$ git push
-```
-
 Aditionally, git has recently removed account password as a valid autentication method. 
 If pushing asks you for Github username and Github password, the username is the same but the password is now an access token.
+this access token may be asked of you every time you push, so make sure to save it!
 Read Here for creating an access token on github: 
 ```
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 ```
-this access token may be asked of you every time you push, so make sure to save it!
+To save the accss token, you can use credential helper, which saves an unencryped version of the access token and username
+```
+$ git config credential.helper store
+$ git push
+<your username entered here will be stored>
+<your password entered here will be stored>
+```
 
-When the changes are complete and you think that they should be merged to master:
+If you are making a new feature, make a new branch with the naming convention user/feature-name
+```
+$ git branch shan/data-analysis
+```
+and checkout to work in that banch
+```
+$ git checkout shan/data-analysis
+```
+
+You can push that branch to the repo at any time 
+```
+$ git push
+```
+
+
+When the changes are complete and you think that they should be merged to master we will make Pull Requests (PRs):
 1. Final commit and push your changes
 ```
 $ git commit -m "new changes"
