@@ -1,6 +1,6 @@
 # COGS 108 Final Project #
 
-**_ NOTE: _** name subject to change
+__ NOTE: __ name subject to change
 
 ## Authors: ##
 - Finn St John
@@ -29,7 +29,7 @@ Thats It! You now have the project cloned to your local workspace to get inside 
 $ cd cogs-10-final-project
 ```
 
-**_ NOTE: _** As the project progresses, we may need to run an install command from a package manager. This is not important now
+__ NOTE: __ As the project progresses, we may need to run an install command from a package manager. This is not important now
 
 ## Making Edits ##
 
@@ -76,4 +76,4 @@ $ git push
 	- if there are edits that need to be made, the developer can go back resolve these suggestions by making edits, commits and pushing again.
 8. After reviewer has approved the edits, we can merge it with master!
 
-**_ TL;DR: _** We will make new changes with new branches named like [ developer-name/feature-title ], push them as sepateate branches to the repo, and then merge to master only on github after a pull request.
+__ TL;DR: __ We will make new changes with new branches named like [ developer-name/feature-title ], push them as sepateate branches to the repo, and then merge to master only on github after a pull request.
