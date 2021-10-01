@@ -1,0 +1,4 @@
+# this file will be used to exclude certain files from git history
+# sensitive data like credetials, passwords, and environment variables will be stored here
+# also large packages that can be installed with a package manager will be ignored
+.env
