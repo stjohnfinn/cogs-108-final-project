@@ -33,7 +33,8 @@ NOTE: As the project progresses, we may need to run an install command from a pa
 
 ## Making Edits ##
 
-If you want to begin editing make sure to pull from within the repository just to make sure everything is up to date
+If you want to begin editing make sure to pull from within the repository just to make sure everything is up to date.
+If you wnat to update master, checkout then pull from master.
 ```
 $ git checkout master
 $ git pull 
@@ -53,7 +54,7 @@ $ git push
 <your password entered here will be stored>
 ```
 
-If you are making a new feature, make a new branch with the naming convention user/feature-name
+If you are making a new feature, create a new branch with the naming convention user/feature-name
 ```
 $ git branch shan/data-analysis
 ```
@@ -62,11 +63,15 @@ and checkout to work in that banch
 $ git checkout shan/data-analysis
 ```
 
-You can push that branch to the repo at any time 
+Since you just created that branch, it doesnt exist on the Github Repo yet
+This command allows you to push a new branch and add tracking history to the Github Repo if it didnt exist before:
+```
+$ git push -u origin shan/data-analysis
+```
+You can push that branch to the GitHub repo again after more commits with:
 ```
 $ git push
 ```
-
 
 When the changes are complete and you think that they should be merged to master we will make Pull Requests (PRs):
 1. Final commit and push your changes
