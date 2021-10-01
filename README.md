@@ -16,17 +16,17 @@ make sure git command line tools are installed.
 
 go to the folder that you want to install this repository into
 ```
-cd Documents
+$ cd Documents
 ```
 
 clone the repository
 ```
-git clone https://github.com/stjohnfinn/cogs-108-final-project.git
+$ git clone https://github.com/stjohnfinn/cogs-108-final-project.git
 ```
 
 Thats It! You now have the project cloned to your local workspace to get inside and start making edits
 ```
-cd cogs-10-final-project
+$ cd cogs-10-final-project
 ```
 
 **_NOTE: _** As the project progresses, we may need to run an install command from a package manager. This is not important now
@@ -35,22 +35,22 @@ cd cogs-10-final-project
 
 If you want to begin editing make sure to pull from within the repository just to make sure everything is up to date
 ```
-git checkout master
-git pull 
+$ git checkout master
+$ git pull 
 ```
 
-If you are making a new feature/analysis make a new branch with the naming convention user/feature-name
+If you are making a new shan/analysis make a new branch with the naming convention user/feature-name
 ```
-git branch shan/data-analysis
+$ git branch shan/data-analysis
 ```
 and checkout to get there
 ```
-git checkout shan/data-analysis
+$ git checkout shan/data-analysis
 ```
 
 You can push any branch to the repo at any time 
 ```
-git push
+$ git push
 ```
 
 Aditionally, git has recently removed account password as a valid autentication method. 
@@ -59,6 +59,7 @@ Read Here for creating an access token on github:
 ```
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 ```
+this access token may be asked of you every time you push, so make sure to save it!
 
 When the changes are complete and you think that they should be merged to master:
 1. Final commit and push your changes
