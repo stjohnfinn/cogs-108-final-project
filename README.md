@@ -53,6 +53,13 @@ You can push any branch to the repo at any time
 git push
 ```
 
+Aditionally, git has recently removed account password as a valid autentication method. 
+If pushing asks you for Github username and Github password, the username is the same but the password is now an access token.
+Read Here for creating an access token on github: 
+```
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+```
+
 When the changes are complete and you think that they should be merged to master:
 1. Final commit and push your changes
 ```
